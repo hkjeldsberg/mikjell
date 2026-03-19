@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git remote:*)",
+      "Bash(git config:*)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh \"Build a modern, minimal, mobile-first website in Norwegian for a small personal service business.\" --json --short-name \"norwegian-homepage\")",
+      "Bash(.specify/scripts/bash/setup-plan.sh --json)",
+      "WebSearch",
+      "WebFetch(domain:web3forms.com)",
+      "Bash(.specify/scripts/bash/update-agent-context.sh claude:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh --json)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks 2>&1)",
+      "Bash(npm --version)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
